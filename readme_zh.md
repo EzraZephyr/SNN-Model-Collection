@@ -12,7 +12,7 @@
 
 - **LIF 模型**: 实现了一个采用 **Sigmoid替代梯度** 的 **MNIST手写数字分类** 分类准确率达到 **98%**; 和一个基于 **STDP** 固定时间步脉冲模型 在预测固定倍数时间脉冲时 准确率保持在 **99%** 以上
 - **AdEx 模型**: 在实现单个神经元模拟的基础上测试了总能量消耗和双层网络构建
-- **其他模型**: 包括 HH、IF、Izhikevich 和 ML 模型 这些模型主要实现了单个神经元的行为模拟
+- **其他模型**: 包括 HH、IF、Izhikevich, ML 和 SRM 模型 这些模型主要实现了单个神经元的行为模拟
 
 ## 目录
 
@@ -66,7 +66,12 @@ SNN_Model_Collection/
 │       ├── double_layer.ipynb
 │       ├── LIF_STDP.ipynb
 │       └── signal_to_spike.ipynb
+│
 ├── ML/ 
+│   └── en/zh
+│       └── basic.ipynb
+│
+├── SRM/ 
 │   └── en/zh
 │       └── basic.ipynb
 │
