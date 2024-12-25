@@ -12,7 +12,7 @@ Below is a brief overview of the main contents of the project:
 
 - **LIF Model**: Implemented a **MNIST classification** model using **Sigmoid as a surrogate gradient**, achieving a classification accuracy of **98%**. Additionally, developed a spike-based model using **STDP** with fixed time steps, maintaining a prediction accuracy above **99%** for fixed-multiple-time spikes.  
 - **AdEx Model**: On the basis of implementing single neuron simulation, tested total energy consumption and constructed a two-layer network.
-- **Other Models**: Including HH, IF, ML and Izhikevich models, which primarily simulate the behavior of single neurons.
+- **Other Models**: Including HH, IF, ML, Izhikevich and SRM models, which primarily simulate the behavior of single neurons.
 
 
 ## Table of Contents
@@ -66,7 +66,12 @@ SNN_Model_Collection/
 │       ├── double_layer.ipynb
 │       ├── LIF_STDP.ipynb
 │       └── signal_to_spike.ipynb
+│
 ├── ML/ 
+│   └── en/zh
+│       └── basic.ipynb
+│
+├── SRM/ 
 │   └── en/zh
 │       └── basic.ipynb
 │
